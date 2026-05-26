@@ -96,8 +96,6 @@ ci-cd-deployment-dashboard/
 └── files/                    # Supporting assets
 ```
 
-> **Note:** The GitHub Actions workflow file (`ci-cd.yml`) lives in the repo root in this project. In standard GitHub Actions convention it should be placed at `.github/workflows/ci-cd.yml` — move it there if you are adapting this for your own use.
-
 ---
 
 ## CI/CD Pipeline Flow
@@ -310,7 +308,7 @@ In Docker, these are passed via the `-e` flag at runtime or defined in `docker-c
 
 ## Screenshots / Demo
 
-> Add your own screenshots here after running the project. Suggested captures are listed below.
+> [Add screenshots here after running the project. Suggested captures are listed below.]
 
 ### Application Running
 
@@ -323,7 +321,7 @@ In Docker, these are passed via the `-e` flag at runtime or defined in `docker-c
 }
 ```
 
-_Add a screenshot of the browser or curl output here._
+[_Add a screenshot of the browser or curl output here._]
 
 ### Docker Container Running
 
@@ -334,15 +332,15 @@ docker ps
 # abc123def456   flask-docker-app  "python ..."  Up X minutes  0.0.0.0:5000->5000/tcp
 ```
 
-_Add a screenshot of `docker ps` output here._
+[_Add a screenshot of `docker ps` output here._]
 
 ### GitHub Actions Workflow
 
-_Add a screenshot of a successful GitHub Actions run showing all four jobs passing (green checkmarks)._
+[_Add a screenshot of a successful GitHub Actions run showing all four jobs passing (green checkmarks)._]
 
 ### EC2 Deployment
 
-_Add a screenshot of the Flask app accessible via the EC2 public IP in a browser._
+[_Add a screenshot of the Flask app accessible via the EC2 public IP in a browser._]
 
 ---
 
