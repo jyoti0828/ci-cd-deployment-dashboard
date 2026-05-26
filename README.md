@@ -1,4 +1,4 @@
-# CI/CD Deployment Dashboard
+# CI/CD Pipeline Automation
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
 ![Flask](https://img.shields.io/badge/Flask-2.x-black?logo=flask)
